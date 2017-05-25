@@ -7,9 +7,9 @@
 **React component that renders its children every x milliseconds**
 
 This is a react component that renders its children every x milliseconds! Please take a look at its props:
-	- *interval:* Milliseconds to rerender _(default 1000)_
-	- *shouldComponentRerender:* Callback function to return a boolean value _(optional)_
-	- *componentDidRerender:* Callback function after the component finished each render _(optional)_
+- *interval:* Milliseconds to rerender _(default 1000)_
+- *shouldComponentRerender:* Callback function to return a boolean value _(optional)_
+- *componentDidRerender:* Callback function after the component finished each render _(optional)_
 
 Besides thos props, it also expects *valid React elements* as its children.
 See it working at [eberhara.github.io/react-interval-renderer](https://eberhara.github.io/react-interval-renderer).
